@@ -13,10 +13,12 @@ class Main:  # Define a classe Main, que provavelmente representa a estrutura pr
         self.title = pygame.display.set_caption(title)  # Define o título da janela.
 
         self.loop = True  # Inicializa a variável de controle do loop principal do jogo como True.
+        self.list_obj = []
 
-    def draw(self):  # Método para desenhar os elementos do jogo na tela.
+    def add_obj(self, item):  # Método para desenhar os elementos do jogo na tela.
         # self: Refere-se à instância atual da classe Main.
-        pass  # Por enquanto, este método não faz nada. Você precisará adicionar o código para desenhar os objetos do jogo aqui.
+        # pass  # Por enquanto, este método não faz nada. Você precisará adicionar o código para desenhar os objetos do jogo aqui.
+        self.list_obj.append(item)
 
     def events(self):  # Método para lidar com os eventos do jogo (ex: entrada do usuário, fechamento da janela).
         # self: Refere-se à instância atual da classe Main.

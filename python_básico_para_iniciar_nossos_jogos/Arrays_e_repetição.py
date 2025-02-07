@@ -10,4 +10,4 @@ for i in monstros:
     if i == "monstro":
         atacar()
     elif i == "Rei":
-        defender()
+        defender() 
